@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/pinned"
+        android:title="Pinned"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/layoutOp"
+        android:title="Layout"
+        app:showAsAction="never">
+        <menu>
+            <item android:id="@+id/grid_layout"
+                android:title="Grid"
+                app:showAsAction="never"/>
+
+            <item android:id="@+id/linear_layout"
+                android:title="Linear"
+                app:showAsAction="never"/>
+        </menu>
+    </item>
+
+    <item android:id="@+id/about"
+        android:title="About"
+        app:showAsAction="never"/>
+</menu>
